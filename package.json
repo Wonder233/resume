@@ -1,8 +1,24 @@
 {
-  "name": "toad-resume",
-  "version": "0.1.0",
+  "name": "wonder233-resume",
+  "version": "1.0.0",
   "devDependencies": {
     "gulp": "^3.9.1",
-    "gulp-compass": "^2.1.0"
-  }
+    "gulp-compass": "^2.1.0",
+    "gulp-sass": "^3.1.0"
+  },
+  "description": "- 网页版简历 https://wonder233.github.io/resume/",
+  "main": "gulpfile.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Wonder233/resume.git"
+  },
+  "author": "Wonder",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Wonder233/resume/issues"
+  },
+  "homepage": "https://github.com/Wonder233/resume#readme"
 }

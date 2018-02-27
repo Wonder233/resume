@@ -13,10 +13,8 @@ gulp.task('compass', function() {
         .pipe(gulp.dest('./css'));
 });
 
-gulp.task('default', function() {
-    gulp.run('compass');
+gulp.task('watch',function(){
+    gulp.watch('./scss/**',['compass']);
+})
 
-    gulp.watch('./scss/**', function(event) {
-        gulp.run('compass');
-    });
-});
+gulp.task('default', ['compass','watch']);

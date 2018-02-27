@@ -209,7 +209,6 @@ a {
         flex: 2;
       }
     }
-
     .i-css {
       .in {
         flex: 7;
@@ -220,10 +219,10 @@ a {
     }
     .i-js {
       .in {
-        flex: 6.5;
+        flex: 8;
       }
       .out {
-        flex: 3.5;
+        flex: 2;
       }
     }
     .i-sass {
@@ -240,6 +239,30 @@ a {
       }
       .out {
         flex: 2.5;
+      }
+    }
+    .i-angularjs {
+      .in {
+        flex: 7;
+      }
+      .out {
+        flex: 3;
+      }
+    }
+    .i-Bootstrap {
+      .in {
+        flex: 8;
+      }
+      .out {
+        flex: 2;
+      }
+    }
+    .i-Java {
+      .in {
+        flex: 6;
+      }
+      .out {
+        flex: 4;
       }
     }
 
@@ -259,6 +282,10 @@ a {
     h3 {
       font-size: 16px;
       margin-top: 10px;
+    }
+    h4 {
+      font-size: 14px;
+      margin-left: 20px;
     }
     @media screen and (max-width: 720px){
       h2{
