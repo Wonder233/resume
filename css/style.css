@@ -124,6 +124,7 @@ body {
 }
 
 a {
+  cursor: pointer;
   text-decoration: none;
   -moz-transition: all 0.2s ease-in-out;
   -o-transition: all 0.2s ease-in-out;
@@ -289,10 +290,10 @@ a {
   border-radius: 0 6px 6px 0;
 }
 .content-hd .skill-level .i-html .in {
-  flex: 8;
+  flex: 8.5;
 }
 .content-hd .skill-level .i-html .out {
-  flex: 2;
+  flex: 1.5;
 }
 .content-hd .skill-level .i-css .in {
   flex: 7;
@@ -307,10 +308,10 @@ a {
   flex: 2;
 }
 .content-hd .skill-level .i-sass .in {
-  flex: 6;
+  flex: 5;
 }
 .content-hd .skill-level .i-sass .out {
-  flex: 4;
+  flex: 5;
 }
 .content-hd .skill-level .i-ps .in {
   flex: 7.5;
@@ -319,10 +320,10 @@ a {
   flex: 2.5;
 }
 .content-hd .skill-level .i-angularjs .in {
-  flex: 7;
+  flex: 6;
 }
 .content-hd .skill-level .i-angularjs .out {
-  flex: 3;
+  flex: 4;
 }
 .content-hd .skill-level .i-Bootstrap .in {
   flex: 8;
@@ -363,7 +364,7 @@ a {
   }
 }
 .content-hd .contact {
-  padding-top: 100px;
+  padding-top: 20px;
 }
 @media screen and (max-width: 1024px) {
   .content-hd .contact {
@@ -493,7 +494,7 @@ a {
   padding: 10px 0 5px;
   line-height: 20px;
   overflow: hidden;
-  font-weight: 500;
+  font-weight: bold;
 }
 .content-bd .item-hd .iconfont {
   color: #00b38a;
@@ -563,6 +564,13 @@ a {
   padding: 0 3px;
   background-color: #f6f6f6;
 }
+.content-bd .section-content strong.bold {
+  font-weight: 600;
+  font-size: 14px;
+}
+.content-bd .project .section-list {
+  padding: 0;
+}
 .content-bd .skill .section-content {
   margin-bottom: 5px;
   line-height: 24px;
@@ -581,6 +589,7 @@ a {
 }
 .content-bd .prize .item-hd {
   padding: 12px 0 0;
+  font-weight: 500;
 }
 .content-bd .prize .item-time {
   width: 15%;
@@ -734,7 +743,7 @@ footer.print-footer {
   footer.print-footer .footer-link {
     position: absolute;
     left: 45px;
-    bottom: 25px;
+    bottom: 0;
     color: #c0c0c0;
     display: inline-block;
   }

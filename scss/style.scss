@@ -61,6 +61,7 @@ body {
   }
 }
 a {
+  cursor:pointer;
   text-decoration: none;
   @include transition(all .2s ease-in-out);
 }
@@ -203,10 +204,10 @@ a {
 
     .i-html {
       .in {
-        flex: 8;
+        flex: 8.5;
       }
       .out {
-        flex: 2;
+        flex: 1.5;
       }
     }
     .i-css {
@@ -227,10 +228,10 @@ a {
     }
     .i-sass {
       .in {
-        flex: 6;
+        flex: 5;
       }
       .out {
-        flex: 4;
+        flex: 5;
       }
     }
     .i-ps {
@@ -243,10 +244,10 @@ a {
     }
     .i-angularjs {
       .in {
-        flex: 7;
+        flex: 6;
       }
       .out {
-        flex: 3;
+        flex: 4;
       }
     }
     .i-Bootstrap {
@@ -294,7 +295,7 @@ a {
     }
   }
   .contact {
-    padding-top: 100px;
+    padding-top: 20px;
     @media screen and (max-width: 1024px){
       padding-top: 0;
 
@@ -413,7 +414,7 @@ a {
     padding: 10px 0 5px;
     line-height: 20px;
     overflow: hidden;
-    font-weight: 500;
+    font-weight: bold;
     .iconfont {
       color: $color-green;
     }
@@ -474,6 +475,15 @@ a {
       padding: 0 3px;
       background-color: #f6f6f6;
     }
+    strong.bold{
+      font-weight: 600;
+      font-size: 14px;
+    }
+  }
+  .project{
+    .section-list{
+      padding: 0;
+    }
   }
   .skill {
     .section-content {
@@ -496,6 +506,7 @@ a {
   .prize {
     .item-hd {
       padding: 12px 0 0;
+      font-weight: 500;
     }
     .item-time {
       width: 15%;
@@ -630,7 +641,7 @@ footer {
   footer.print-footer .footer-link {
     position: absolute;
     left: 45px;
-    bottom: 25px;
+    bottom: 0;
     color: #c0c0c0;
     display: inline-block;
   }
