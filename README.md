@@ -8,7 +8,7 @@
 
 - Fork或者借鉴请注明出处[@ Wonder233](http://resume.Wonder.cn)
 
-![imgview](toadresume-intro.jpg)
+![imgview](toadresume-intro.png)
 
 
 #### 打印方法
