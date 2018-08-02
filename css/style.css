@@ -296,10 +296,10 @@ a {
   flex: 1.5;
 }
 .content-hd .skill-level .i-css .in {
-  flex: 7;
+  flex: 6;
 }
 .content-hd .skill-level .i-css .out {
-  flex: 3;
+  flex: 4;
 }
 .content-hd .skill-level .i-js .in {
   flex: 8;
@@ -314,10 +314,10 @@ a {
   flex: 5;
 }
 .content-hd .skill-level .i-ps .in {
-  flex: 7.5;
+  flex: 5;
 }
 .content-hd .skill-level .i-ps .out {
-  flex: 2.5;
+  flex: 5;
 }
 .content-hd .skill-level .i-angularjs .in {
   flex: 6;
@@ -325,11 +325,17 @@ a {
 .content-hd .skill-level .i-angularjs .out {
   flex: 4;
 }
+.content-hd .skill-level .i-Vue .in {
+  flex: 7;
+}
+.content-hd .skill-level .i-Vue .out {
+  flex: 3;
+}
 .content-hd .skill-level .i-Bootstrap .in {
-  flex: 8;
+  flex: 7;
 }
 .content-hd .skill-level .i-Bootstrap .out {
-  flex: 2;
+  flex: 3;
 }
 .content-hd .skill-level .i-Java .in {
   flex: 6;

@@ -212,10 +212,10 @@ a {
     }
     .i-css {
       .in {
-        flex: 7;
+        flex: 6;
       }
       .out {
-        flex: 3;
+        flex: 4;
       }
     }
     .i-js {
@@ -236,10 +236,10 @@ a {
     }
     .i-ps {
       .in {
-        flex: 7.5;
+        flex: 5;
       }
       .out {
-        flex: 2.5;
+        flex: 5;
       }
     }
     .i-angularjs {
@@ -250,12 +250,20 @@ a {
         flex: 4;
       }
     }
+    .i-Vue {
+        .in {
+          flex: 7;
+        }
+        .out {
+          flex: 3;
+        }
+      }
     .i-Bootstrap {
       .in {
-        flex: 8;
+        flex: 7;
       }
       .out {
-        flex: 2;
+        flex: 3;
       }
     }
     .i-Java {
