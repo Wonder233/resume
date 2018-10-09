@@ -1,6 +1,6 @@
 
 ## 简历（响应式web版、psd版）
-- 网页版简历 https://wonder233.github.io/resume/
+- 网页版简历 http://wonder233.cn/resume/
 
 该项目源自[@ Toad](http://resume.toadw.cn/) 的简历并做了一定的修改
 
